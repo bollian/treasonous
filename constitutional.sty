@@ -1,0 +1,17 @@
+\usepackage{geometry}
+\geometry{letterpaper, margin=1in}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[utf8]{inputenc} % Unicode support (Umlauts etc.)
+\usepackage{sectsty} % Centered section titles
+\usepackage[bookmarks]{hyperref} % Document outline
+\usepackage{parskip} % paragraph spacing
+
+% Disable section numbering
+\makeatletter
+\renewcommand\@seccntformat[1]{}
+\makeatother
+
+% Center section titles
+\allsectionsfont{\centering}

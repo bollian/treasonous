@@ -1,2 +1,2 @@
-# report-base
-A starter project for writing VT homework reports in LaTeX
+# treasonous
+A collection of constitutions I've written, just for fun.

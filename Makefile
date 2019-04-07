@@ -1,4 +1,4 @@
-documents := project-report.pdf
+documents := democratic.pdf democratic-notes.pdf
 
 OUTDIR := latexmk-output
 PDFDOCS = $(documents:.tex=.pdf)
@@ -17,7 +17,7 @@ clean:
 # 	$(CXX) $(cflags) $(preprocflags) -c $< -o $@
 # 	$(CXX) $(cflags) $(preprocflags) -c $< -MM -MP -MF $(bin)/$*.d -MT $@
 
-$(OUTDIR)/%.pdf: %.tex $(OUTDIR)/dummy.txt vtreport.sty Makefile
+$(OUTDIR)/%.pdf: %.tex $(OUTDIR)/dummy.txt constitutional.sty Makefile
 	$(TEX) $<
 
 $(OUTDIR)/dummy.txt:
